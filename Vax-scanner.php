@@ -59,11 +59,11 @@
                     </table> 
                 </div>
                 </br>
-                <form id="vax_form" method="GET" action="{{ route('health-scanner',$id = Auth::id()) }}" enctype="multipart/form-data">
+                <form id="vax_form" method="GET" action="/show-result" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 
                     <div>
-                        <button style = "width:300px; height:30px; margin-left:210px" type= "submit" id = "health_scanner" class = "btn">Health Card Scanner</button>
+                        <button type= "submit" id = "show-result" class = "btn btn-primary">Show Result</button>
                     </div>
                 </form>
             

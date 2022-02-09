@@ -59,7 +59,7 @@
                     </table> 
                 </div>
                 </br>
-                <form id="vax_form" method="GET" action="/show-result" enctype="multipart/form-data">
+                <form id="vax_form" method="GET" action="/vax-result" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 
                     <div>
